@@ -1,0 +1,11 @@
+a{
+  font-family: 'Montserrat', sans-serif;
+}
+
+button, input{
+  font-family: 'Inconsolata', monospace;
+}
+
+.logoHeader:hover{
+  cursor: pointer;
+}

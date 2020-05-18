@@ -1,0 +1,92 @@
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.carousel-caption p {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #dcdcdd;
+  text-shadow: 0 0 5px #000;
+}
+
+.carousel-caption h1 {
+  color: #dcdcdd;
+  text-shadow: 0 0 5px #000;
+}
+
+.carousel-item{
+  height: 100vh;
+}
+
+
+.carousel-inner .bd-placeholder-img:first-child{
+  background-image: url("../../../assets/images/carousel01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner .bd-placeholder-img:nth-child(2){
+  background-image: url("../../../assets/images/carousel02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner .bd-placeholder-img:nth-child(3){
+  background-image: url("../../../assets/images/carousel03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-dark{
+  background-color: #1985a1;
+}
+
+.btn-dark:active{
+  background-color: #4c5c68 !important;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  h1{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 24px;
+  }
+
+  p{
+    font-size: 14px !important;
+  }
+}

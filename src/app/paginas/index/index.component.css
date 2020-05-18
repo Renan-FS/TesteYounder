@@ -1,0 +1,46 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+}
+
+.starter-template{
+  background-image: url("../../../assets/images/background01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.starter-template div{
+  margin-top: 10rem;
+}
+
+.starter-template h1, .starter-template p{
+  color: #dcdcdd;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  h1{
+    font-size: 38px !important;
+  }
+
+  p{
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  h1{
+    font-size: 30px !important;
+  }
+
+  p{
+    font-size: 16px !important;
+  }
+}

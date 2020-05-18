@@ -1,0 +1,71 @@
+.col-2{
+  align-self: center;
+  text-align: center;
+}
+
+.card{
+  margin: 10px;
+}
+
+h2, h4{
+  font-family: 'Montserrat', sans-serif;
+  color: #4c5c68;
+}
+
+p{
+  font-family: 'Inconsolata', monospace;
+  color: #46494c;
+}
+
+.card{
+  background-color: #dcdcdd;
+}
+
+.col-md-4, .col-sm-6{
+  padding: 1rem;
+}
+
+hr{
+  border-color: #1985a1;
+  width: 50%;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  img{
+    height: 32px;
+    width: auto;
+  }
+
+  h2{
+    font-size: 26px;
+  }
+
+  h4{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  img{
+    height: 28px;
+    width: auto;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
+  h4{
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}

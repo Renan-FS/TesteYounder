@@ -1,0 +1,33 @@
+/*Fontes:*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*Icones:*/
+/*https://www.flaticon.com/packs/ui-interface-24*/
+/*https://www.flaticon.com/free-icon/network_978012?term=person&page=1&position=73*/
+/*https://www.flaticon.com/free-icon/manager_1077982?term=person&page=3&position=55*/
+/*https://www.flaticon.com/free-icon/deal_522568?term=handshake&page=1&position=34*/
+/*https://www.flaticon.com/free-icon/planet-earth_921439*/
+/*https://www.flaticon.com/free-icon/innovation_993552?term=technology&page=1&position=29*/
+/*https://www.flaticon.com/free-icon/computer_1122581?term=technology&page=1&position=22*/
+
+/*Paleta de Cores:*/
+/*https://coolors.co/dcdcdd-c5c3c6-46494c-4c5c68-1985a1*/
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  color: #5a5a5a;
+}
+
+a:hover{
+  text-decoration: none;
+}

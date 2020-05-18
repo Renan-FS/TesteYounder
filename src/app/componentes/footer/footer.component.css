@@ -1,0 +1,28 @@
+.logoRedesSociais{
+  margin: 0 10px;
+}
+
+p, a, small{
+  font-family: 'Inconsolata', monospace;
+  color: #dcdcdd !important;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  p, a{
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  footer{
+    text-align: center;
+  }
+}
+
+a:hover{
+  color: #1985a1 !important;
+}
+
+footer{
+  background-color: #46494c;
+}
